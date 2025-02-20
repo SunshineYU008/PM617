@@ -1,0 +1,74 @@
+/* 设置全局字体 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 头部样式 */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+/* 头像图片 */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* 每个部分的间距 */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* 列表样式 */
+ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+}
+
+/* 表格样式 */
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* 按钮样式 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: blue;
+    padding: 10px;
+    margin-top: 20px;
+}
